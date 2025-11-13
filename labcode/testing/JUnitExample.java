@@ -1,6 +1,6 @@
-package labcode;
+package labcode.testing;
 
-public class Lab
+public class JUnitExample
 {
     public static int addNumber(int num1, int num2)
         {

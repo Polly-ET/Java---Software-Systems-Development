@@ -1,4 +1,4 @@
-package labcode;
+package labcode.testing;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,7 +13,7 @@ public class TestDriver
 {
     public static void main(String[] args)
     {}
-    private final Lab lab = new Lab();
+    private final JUnitExample lab = new JUnitExample();
     int number[] = {2,4,6,8,10};
 
 
@@ -34,7 +34,7 @@ public class TestDriver
     @Test
     void testEvenNumberWithPostiveValue()
     {
-        assertTrue(Lab.evenNumber(4));
+        assertTrue(JUnitExample.evenNumber(4));
     }
 
     @Test
@@ -42,7 +42,7 @@ public class TestDriver
     {
         //lab lab = new lab();
 
-        int actual = Lab.addNumber(10,20);
+        int actual = JUnitExample.addNumber(10,20);
         int expecting = 30;
 
 
@@ -55,7 +55,7 @@ public class TestDriver
     {
         //lab lab = new lab();
 
-        int actual = Lab.addNumber(-10,-20);
+        int actual = JUnitExample.addNumber(-10,-20);
         int expecting = -30;
 
 
