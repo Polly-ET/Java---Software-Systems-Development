@@ -159,4 +159,10 @@ public class Triangle {
 
         sideA = sideB = sideC = 1;
     }
+
+    @Override
+    public String toString() {
+        return " a=" + sideA + ", b=" + sideB + ", c=" + sideC;
+    }
+
 }
