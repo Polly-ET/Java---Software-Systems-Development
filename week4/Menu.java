@@ -1,18 +1,16 @@
 package week4;
 
 
-public class Menu
-{
+public class Menu {
 
     public void displayMenuOption(int opt) throws InvalidOptionException
     {
-        if (opt )
 
-         (InvalidOptionException e)
+        if (opt < 1 || opt > 2)
         {
-            throw new InvalidOptionException(e.getMessage());
+            throw new InvalidOptionException("Option " + opt + " is invalid.");
         }
 
+        System.out.println("Menu option " + opt + " selected.");
     }
-
 }
