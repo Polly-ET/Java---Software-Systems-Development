@@ -1,4 +1,4 @@
-package labcode.testing;
+package labcode.JUnit;
 
 public class JUnitExample
 {
