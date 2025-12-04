@@ -6,6 +6,8 @@ public class Menu {
     public void displayMenuOption(int opt) throws InvalidOptionException
     {
 
+        //case
+
         if (opt < 1 || opt > 2)
         {
             throw new InvalidOptionException("Option " + opt + " is invalid.");
